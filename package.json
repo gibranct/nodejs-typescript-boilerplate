@@ -42,7 +42,6 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "asterisk-ami-client": "^1.1.5",
     "date-fns": "^2.16.1",
     "dotenv": "^8.2.0",
     "env-var": "^6.3.0",
