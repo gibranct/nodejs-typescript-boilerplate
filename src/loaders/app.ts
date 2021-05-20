@@ -1,10 +1,7 @@
-import { QueryFailedError } from 'typeorm'
 import express, { Request, Response, NextFunction } from 'express'
 import morgan from 'morgan'
-import ServiceUtils from '@utils/service'
 
 import routes from '../routes'
-import APIError from '../api/customErrors/APIError'
 
 const app = express()
 
@@ -33,17 +30,5 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 app.use(morgan(':date[iso] :method :url :status :body - :total-time ms'))
 
 app.use('/api', routes)
-
-app.use((error: APIError, req: Request, res: Response, next: NextFunction) => {
-  const isInstanceOfQueryFailed = error instanceof QueryFailedError
-  if (isInstanceOfQueryFailed) return next(error)
-  res.status(error.statusCode || 400).json(
-    ServiceUtils.getResponse({
-      status: error.status,
-      message: error.message,
-    })
-  )
-  return next(false)
-})
 
 export default app
