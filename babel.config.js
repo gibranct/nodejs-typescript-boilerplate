@@ -15,12 +15,7 @@ module.exports = {
       'module-resolver',
       {
         alias: {
-          '@controllers': './src/api/controllers',
-          '@entities': './src/api/entities',
-          '@services': './src/api/services',
-          '@config': './src/config',
-          '@asterisk-actions': './src/asterisk-actions',
-          '@utils': './src/utils',
+          '@': './src',
         },
       },
     ],
@@ -35,4 +30,4 @@ module.exports = {
     ['@babel/plugin-proposal-class-properties', { loose: true }],
   ],
   ignore: ['**/*.spec.ts'],
-};
+}

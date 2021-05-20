@@ -19,12 +19,7 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@controllers/*": ["./src/api/controllers/*"],
-      "@entities/*": ["./src/api/entities/*"],
-      "@services/*": ["./src/api/services/*"],
-      "@config/*": ["./src/config/*"],
-      "@asterisk-actions": ["./src/asterisk-actions"],
-      "@utils/*": ["./src/utils/*"]
+      "@/*": ["./src/*"]
     },
     "suppressImplicitAnyIndexErrors": true
   },

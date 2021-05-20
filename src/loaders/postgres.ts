@@ -1,9 +1,9 @@
 import 'reflect-metadata'
 import { createConnection } from 'typeorm'
 
-import Entities from '@entities/index'
-import DBConfig from '@config/database'
-import logger from './logger'
+import Entities from '@/domain/entities'
+import DBConfig from '@/config/database'
+import logger from '@/loaders/logger'
 
 export default createConnection({
   ...DBConfig,
