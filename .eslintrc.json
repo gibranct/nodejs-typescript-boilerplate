@@ -4,6 +4,7 @@
     "node": true,
     "jest": true
   },
+  "ignorePatterns": ["**/dist/**/.js"],
   "settings": {
     "import/resolver": {
       "node": {
