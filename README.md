@@ -1,32 +1,47 @@
 <h1 align="center">
-    <img alt="G4flex" src=".gitlab/logo.png" />
-    <br>
     Nodejs Typescript Boilerplate
 </h1>
 
 <p align="center">
-  <a href="#information_source-about">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-integracoes">Integrações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-tecnologias">Tecnologias</a>
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
 </p>
 
-## :information_source: Sobre
-Projeto que serve como base para a criação de todos os backends em Nodejs da empresa. A fim de determinar um padrão e prover uma configuração inicial para o projeto.
 
-## :information_source: Integrações
-- [Frontend Flexuc][flexuc]
-- [Rabbitmq][rabbitmq]
+## :rocket: Technologies
 
-## :rocket: Tecnologias
--  [Nodejs][nodejs]
 -  [Yarn][yarn]
+-  [NodeJs][nodejs]
 -  [Typescript][ts]
--  [Typeorm][type]
+-  [Prisma][ps]
+
+## :information_source: How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v12.22][nodejs] or higher + [Yarn v1.22][yarn] or higher installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/gibranct/nodejs-typescript-boilerplate.git
+
+# Go into the repository
+$ cd nodejs-typescript-boilerplate
+
+# Install dependencies
+$ yarn
+
+# Start API
+yarn start
+```
+
+## :memo: License
+This project is under the MIT license. See the [LICENSE](https://github.com/gibranct/nodejs-typescript-boilerplate/blob/main/LICENSE) for more information.
+
+---
+
+Made with ♥ by Gibran Tavares :wave: [Get in touch!](https://www.linkedin.com/in/gibran-tavares-89120597/)
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
 [ts]: https://www.typescriptlang.org/
 [ps]: https://www.prisma.io/
-[type]: https://typeorm.io
-[flexuc]: http://187.60.42.211:8081/desenvolvimento/front-end-
-[rabbitmq]: https://www.rabbitmq.com/
