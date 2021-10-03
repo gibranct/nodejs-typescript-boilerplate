@@ -35,7 +35,7 @@ yarn start
 ```
 
 ## :memo: License
-This project is under the MIT license. See the [LICENSE](https://github.com/gibranct/desafio-01-conceitos-do-react/blob/main/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/gibranct/nodejs-typescript-boilerplate/blob/main/LICENSE) for more information.
 
 ---
 
